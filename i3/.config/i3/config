@@ -3,7 +3,7 @@ set $mod Mod4
 set $alt Mod1
 
 # Set display resolution
-exec_always --no-startup-id xrandr --output eDP-1 --mode 1920x1080 --rate 60.00
+exec_always --no-startup-id xrandr --output eDP-1 --mode 1920x1080 --rate 165.00
 
 # Press mod key to be able to resize floating windows
 floating_modifier $mod

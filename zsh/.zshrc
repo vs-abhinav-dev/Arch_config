@@ -74,6 +74,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
+alias fucking='sudo'
 
 # Shell integrations
 eval "$(fzf --zsh)"
@@ -86,7 +87,23 @@ export CHROME_EXECUTABLE=/usr/bin/firefox
 export FLUTTER_ROOT=/usr/lib/flutter
 export PATH="/usr/lib/flutter/bin:$PATH"
 
-
 #exporting bash-script directory 
-
 export PATH=$PATH":$HOME/bash-script"
+
+# Exporting flutter path 
+#export PATH="$HOME/development/flutter/bin:$PATH"
+
+#export PYENV_ROOT="$HOME/.pyenv"
+#[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+#eval "$(pyenv init - zsh)"
+#
+#export WINEPREFIX=$HOME/.local/share/wineprefixes/tmnf
+#export run-trackmania=$WINEPREFIX/drive_c/program\Files\ \(x86\)/TmNationsForever/TmForeverLauncher.exe
+# Sourcing ROS2
+export ROS_DOMAIN_ID=42
+#source /opt/ros/humble/setup.zsh
+#source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.zsh
+#export LIBVA_DRIVER_NAME=iHD
+
+#Docker build config 
+#export DOCKER_BUILDKIT=1
