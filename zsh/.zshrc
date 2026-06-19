@@ -107,3 +107,6 @@ export ROS_DOMAIN_ID=42
 
 #Docker build config 
 #export DOCKER_BUILDKIT=1
+#
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk
+export ANDROID_NDK_HOME=$HOME/Android/Sdk/ndk/21.4.7075529

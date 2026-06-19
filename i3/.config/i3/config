@@ -164,7 +164,7 @@ bindsym XF86AudioPrev exec playerctl previous
 gaps inner 2px
 
 # Borders
-default_border pixel 2
+default_border pixel 0
 
 # Execute polybar on launch and pywal . Script kills current ones on i3 refresh, otherwise they duplicate
 
